@@ -1,0 +1,783 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: url(scateredclouds.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.first{
+    width: 100%;
+    height: 82vh;
+    background: url(spiderweb.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: .8;
+}
+.logo{
+    width: 129px;
+    height: 100px;
+    margin-left: 20px;
+    padding-top: 20px;
+    opacity: 1;
+}
+.menu{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-left: 5%;
+    position: sticky;
+    top: 1%;
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+}
+.title{
+    width: 32%;
+    height: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 13% auto;
+    color: gold;
+    opacity: 1;
+}
+/* typing animation */
+.main-title{
+    width: 100%;
+    width: 60ch;
+    color: orange;
+}
+.main-title>h1{
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .2em;
+    border-right: 3px solid red;
+    animation: printing 10s steps(27, end)
+    infinite, blink .5s step-end infinite;
+}
+@keyframes printing{
+    from{width: 0%;}
+ to{width: 100%;}
+}
+@keyframes blink{
+    from, to{
+        border-color: transparent}
+        50% {
+            border-color: red;
+        }
+    } 
+
+.icons{
+    width: 40%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50%; 
+    opacity: 1;
+}
+.icons i{
+    color: orange;
+}
+.icons #ione:hover{
+    color: yellowgreen;
+}
+.icons #itwo:hover{
+    color: yellowgreen;
+}
+.icons #ithree:hover{
+    color: yellowgreen;
+}
+.about{
+    background: rgba(223,24,23,.4);
+    padding: 4px 4px;
+} 
+/* second page */
+#aboutmebtn{
+    border: none;
+    background: rgba(35,124,23,.7);
+    padding: 4px 4px;
+}
+.aboutme{
+    margin-top: 3%;
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutme1{
+    width: 50%;
+    height: 95%;
+    background: rgba(23,53,63,.3);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.col-md-4{
+    background: url(dc);
+    background-position: center;
+    background-size: cover;
+}
+/* bezier effect */
+.skills{
+    width: 49%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgba(23,53,63,.3);
+}
+box1,
+box2,
+box3,
+box4,
+box5{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+box1,
+box2,
+box3,
+box4,
+box5 {
+            width: 12vw;
+            height: 6vh;
+            background: rgba(23,53,63,.8);
+            margin-top: 2px;
+            margin-bottom: 3px;
+            transition: 2s;
+            transition-timing-function: cubic-bezier(0.1, 0.3, 1.0, 0.1);
+            border-radius: 35px 0px 35px 0px;
+}
+box1:hover {
+    transition: 2s;
+    transition-timing-function: cubic-bezier(0.1, 0.5, 1.0, 0.1);
+    width: 45vw;
+}
+
+box2:hover {
+    transition: 3s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.1);
+    width: 40vw;
+}
+
+box3:hover {
+    transition: 4s;
+    transition-timing-function: cubic-bezier(0.1, 0.3, 1.0, 0.1);
+    width: 37vw;
+}
+
+box4:hover {
+    transition: 5s;
+    transition-timing-function: cubic-bezier(0.1, 0.2, 1.0, 0.1);
+    width: 32vw;
+}
+
+box5:hover {
+    transition: 5s;
+    transition-timing-function: cubic-bezier(0.1, 0.3, 1.0, 0.1);
+    width: 27vw;
+}
+box1 h3 {
+    opacity: 0;
+}
+
+box2 h3 {
+    opacity: 0;
+}
+
+box3 h3 {
+    opacity: 0;
+}
+
+box4 h3 {
+    opacity: 0;
+}
+
+box5 h3 {
+    opacity: 0;
+}
+box1:hover h3 {
+    opacity: 1;
+    transition: 2s;
+    transition-timing-function: cubic-bezier(0.1, 0.5, 1.0, 0.4);
+    width: 45vw;
+    color: wheat;
+}
+
+box2:hover h3 {
+    opacity: 1;
+    transition: 3s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.4);
+    width: 40vw;
+    color: wheat;
+}
+
+box3:hover h3 {
+    opacity: 1;
+    transition: 4s;
+    transition-timing-function: cubic-bezier(0.1, 0.3, 1.0, 0.4);
+    width: 37vw;
+    color: wheat;
+}
+
+box4:hover h3 {
+    opacity: 1;
+    transition: 4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.4);
+    width: 32vw;
+    color: wheat;
+}
+
+box5:hover h3 {
+    opacity: 1;
+    transition: 4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.4);
+    width: 27vw;
+    color: wheat;
+}/* end of bezier */
+
+
+ 
+h2, h3, h5{
+    text-align: center;
+}
+h7{
+    margin-left: 100px;
+}
+.first{
+    text-decoration: none;
+}
+.first a{
+    text-decoration: none;
+    color: white;
+}
+.first a h4{
+    list-style: none;
+}
+/* third page */
+#edubtn{
+    border: none;
+    background: rgba(35,124,23,.7);
+    padding: 4px 4px;
+    /* position: absolute;
+    margin-left: 30%;
+    margin-top: 50%; */
+}
+.education{
+    margin-top: 3%;
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#relatedbtn{
+    border: none;
+    background: rgba(35,124,23,.7);
+    padding: 4px 4px;
+}
+.general-education{
+    width: 50%;
+    height: 95%;
+    background: rgba(23,53,63,.3);
+    padding: 10px 10px;
+    text-align: justify;
+}
+.web-related{
+    width: 49%;
+    height: 95%;
+    background: rgba(23,53,63,.3);
+    padding: 10px 10px;
+    text-align: justify;
+}
+/* fourth page */
+#workbtn{
+    border: none;
+    background: rgba(35,124,23,.7);
+    padding: 4px 4px;
+}
+.work{
+    margin-top: 3%;
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#workbtn1{
+    border: none;
+    background: rgba(35,124,23,.7);
+    padding: 4px 4px;
+}
+.work-experience{
+    width: 50%;
+    height: 95%;
+    background: rgba(23,53,63,.3);
+    padding: 10px 10px;
+    text-align: justify;
+}
+.web-experience{
+    width: 49%;
+    height: 95%;
+    background: rgba(23,53,63,.3);
+    padding: 10px 10px;
+    text-align: justify;
+}
+/* last-page */
+.contact{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20%;
+}
+.residence{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 150px;
+    background: rgba(23,93,103,.3);
+    box-shadow: 4px 5px 6px black;
+}
+.residence:hover{
+    color: black;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 150px;
+    background: rgba(23,93,103,.3);
+    box-shadow: 4px 5px 6px black;
+}
+.phone:hover{
+    color: black;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 150px;
+    background: rgba(23,93,103,.3);
+    box-shadow: 4px 5px 6px black;
+}
+.email:hover{
+    color: black;
+}
+.totop{
+    margin-left: 120px;
+    position: fixed;
+    bottom: 40px;
+}
+#totop{
+    color: red;
+}
+#totop:hover{
+    color: tomato;
+}
+.copyright{
+    text-align: center;
+}
+
+/* media query */
+@media only screen and (max-width: 550px){
+    .aboutme{
+        width: 96%;
+        height: 90%;
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: left;
+    }
+    .menu{
+        width: 45%;
+        height: 60%;
+        background: rgba(23,124,23,.7);
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        font-size: 20px;
+        justify-content: space-evenly;
+        margin-top: 4%;
+    }
+    .title{
+        width: 90%;
+        font-size: 18px;
+        margin-top: -5%;
+    }
+    .icons{
+        margin-top: 5%; 
+    }
+    .aboutme1{
+        width: 100%;
+        height: 48%;
+    }
+    .skills{
+        width: 100%;
+        height: 48%;
+        margin-top: 1%;
+    }
+    box1:hover {
+        transition: 2s;
+        transition-timing-function: cubic-bezier(0.1, 0.5, 1.0, 0.1);
+        width: 85vw;
+    }
+    
+    box2:hover {
+        transition: 3s;
+        transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.1);
+        width: 80vw;
+    }
+    
+    box3:hover {
+        transition: 4s;
+        transition-timing-function: cubic-bezier(0.1, 0.3, 1.0, 0.1);
+        width: 75vw;
+    }
+    
+    box4:hover {
+        transition: 5s;
+        transition-timing-function: cubic-bezier(0.1, 0.2, 1.0, 0.1);
+        width: 67vw;
+    }
+    
+    box5:hover {
+        transition: 5s;
+        transition-timing-function: cubic-bezier(0.1, 0.3, 1.0, 0.1);
+        width: 60vw;
+    }
+    box1 h3 {
+        opacity: 0;
+    }
+    
+    box2 h3 {
+        opacity: 0;
+    }
+    
+    box3 h3 {
+        opacity: 0;
+    }
+    
+    box4 h3 {
+        opacity: 0;
+    }
+    
+    box5 h3 {
+        opacity: 0;
+    }
+    box1:hover h3 {
+        opacity: 1;
+        transition: 2s;
+        transition-timing-function: cubic-bezier(0.1, 0.5, 1.0, 0.4);
+        width: 85vw;
+        color: wheat;
+    }
+    
+    box2:hover h3 {
+        opacity: 1;
+        transition: 3s;
+        transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.4);
+        width: 80vw;
+        color: wheat;
+    }
+    
+    box3:hover h3 {
+        opacity: 1;
+        transition: 4s;
+        transition-timing-function: cubic-bezier(0.1, 0.3, 1.0, 0.4);
+        width: 75vw;
+        color: wheat;
+    }
+    
+    box4:hover h3 {
+        opacity: 1;
+        transition: 4s;
+        transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.4);
+        width: 67vw;
+        color: wheat;
+    }
+    
+    box5:hover h3 {
+        opacity: 1;
+        transition: 4s;
+        transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.4);
+        width: 60vw;
+        color: wheat;
+}
+.education{
+    width: 96%;
+        height: 90%;
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .general-education {
+        width: 100%;
+        height: 48%;
+    }
+    .web-related {
+        width: 100%;
+        height: 48%;
+        margin-top: 1%;
+    }
+
+.work{
+    width: 96%;
+        height: 90%;
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .work-experience {
+        width: 100%;
+        height: 48%;
+    }
+    .web-experience {
+        width: 100%;
+        height: 48%;
+        margin-top: 1%;
+    }
+    .contact{
+        width: 50%;
+        height: 90%;
+        margin-left: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+        .residence {
+        width: 100%;
+        height: 48%;
+        }
+        .phone {
+        width: 100%;
+        height: 48%;
+        margin-top: 1%;
+        }
+        .email{
+        width: 100%;
+        height: 48%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        }
+        .totop{
+            margin-left: 5%;
+        }
+}
+
+@media (min-width: 550px) and (max-width: 1100px){
+    .aboutme{
+        width: 88%;
+        height: 100%;
+        margin-left: 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .aboutme1{
+        width: 100%;
+        height: 50%;
+    }
+    .skills{
+        width: 100%;
+        height: 50%;
+        margin-top: 1%;
+    }
+    .menu{
+        width: 45%;
+        height: 60%;
+        background: rgba(23,124,23,.7);
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        font-size: 20px;
+        justify-content: space-evenly;
+       /*  margin-top: 4%; */
+    }
+    .title{
+        width: 90%;
+        font-size: 18px;
+        margin-top: -3%;
+    }
+    .icons{
+        margin-top: -5%; 
+    }
+     
+    box1:hover {
+        transition: 2s;
+        transition-timing-function: cubic-bezier(0.1, 0.5, 1.0, 0.1);
+        width: 85vw;
+    }
+    
+    box2:hover {
+        transition: 3s;
+        transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.1);
+        width: 80vw;
+    }
+    
+    box3:hover {
+        transition: 4s;
+        transition-timing-function: cubic-bezier(0.1, 0.3, 1.0, 0.1);
+        width: 75vw;
+    }
+    
+    box4:hover {
+        transition: 5s;
+        transition-timing-function: cubic-bezier(0.1, 0.2, 1.0, 0.1);
+        width: 67vw;
+    }
+    
+    box5:hover {
+        transition: 5s;
+        transition-timing-function: cubic-bezier(0.1, 0.3, 1.0, 0.1);
+        width: 60vw;
+    }
+    box1 h3 {
+        opacity: 0;
+    }
+    
+    box2 h3 {
+        opacity: 0;
+    }
+    
+    box3 h3 {
+        opacity: 0;
+    }
+    
+    box4 h3 {
+        opacity: 0;
+    }
+    
+    box5 h3 {
+        opacity: 0;
+    }
+    box1:hover h3 {
+        opacity: 1;
+        transition: 2s;
+        transition-timing-function: cubic-bezier(0.1, 0.5, 1.0, 0.4);
+        width: 85vw;
+        color: wheat;
+    }
+    
+    box2:hover h3 {
+        opacity: 1;
+        transition: 3s;
+        transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.4);
+        width: 80vw;
+        color: wheat;
+    }
+    
+    box3:hover h3 {
+        opacity: 1;
+        transition: 4s;
+        transition-timing-function: cubic-bezier(0.1, 0.3, 1.0, 0.4);
+        width: 75vw;
+        color: wheat;
+    }
+    
+    box4:hover h3 {
+        opacity: 1;
+        transition: 4s;
+        transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.4);
+        width: 67vw;
+        color: wheat;
+    }
+    
+    box5:hover h3 {
+        opacity: 1;
+        transition: 4s;
+        transition-timing-function: cubic-bezier(0.1, 0.4, 1.0, 0.4);
+        width: 60vw;
+        color: wheat;
+}
+.education{
+    width: 88%;
+    height: 100%;
+    margin-left: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .general-education {
+        width: 100%;
+        height: 50%;
+    }
+    .web-related {
+        width: 100%;
+        height: 50%;
+        margin-top: 1%;
+    }
+
+.work{
+    width: 88%;
+    height: 100%;
+    margin-left: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .work-experience {
+        width: 100%;
+        height: 50%;
+    }
+    .web-experience {
+        width: 100%;
+        height: 50%;
+        margin-top: 1%;
+    }
+    .contact{
+        width: 50%;
+        height: 90%;
+        margin-left: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+        .residence {
+        width: 100%;
+        height: 50%;
+        }
+        .phone {
+        width: 100%;
+        height: 50%;
+        margin-top: 1%;
+        }
+        .email{
+        width: 100%;
+        height: 50%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        }
+        .totop{
+            margin-left: 5%;
+        }
+}
