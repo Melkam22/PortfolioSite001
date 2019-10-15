@@ -114,5 +114,24 @@ myRelatedBtn.addEventListener('click', function () {
         //window.location.reload()";
     }
 })
-//document.location.reload(true)
+
+//humberger
+/* let myIcon = document.querySelector('.logo');//like btn
+let mySlide = document.querySelector('.menu');
+
+let myLogo = false;
+myIcon.addEventListener('click', function () {
+    let myLogo = !myLogo;
+    if (!myLogo) {
+        mySlide.style.display = "flex";
+        mySlide.style.width = "120px";
+        mySlide.style.height = "50%";
+    }
+    else if (myLogo) {
+        document.location.reload();
+        //window.location.reload()";
+    }
+
+})
+ */
 
