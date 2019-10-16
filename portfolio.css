@@ -154,9 +154,10 @@ label:hover {
   color: silver;
 }
 .col-md-4 {
-  background: url(dc);
+  background: url(coding3.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 /* bezier effect */
 .skills {
@@ -191,19 +192,19 @@ box5 {
 }
 box1:hover {
   transition: 2s;
-  transition-timing-function: cubic-bezier(0.1, 0.5, 1, 0.1);
+  transition-timing-function: cubic-bezier(0.1, 0.2, 1, 0.1);
   width: 45vw;
 }
 
 box2:hover {
   transition: 3s;
-  transition-timing-function: cubic-bezier(0.1, 0.4, 1, 0.1);
+  transition-timing-function: cubic-bezier(0.1, 0.2, 1, 0.1);
   width: 40vw;
 }
 
 box3:hover {
   transition: 4s;
-  transition-timing-function: cubic-bezier(0.1, 0.3, 1, 0.1);
+  transition-timing-function: cubic-bezier(0.1, 0.2, 1, 0.1);
   width: 37vw;
 }
 
@@ -215,7 +216,7 @@ box4:hover {
 
 box5:hover {
   transition: 5s;
-  transition-timing-function: cubic-bezier(0.1, 0.3, 1, 0.1);
+  transition-timing-function: cubic-bezier(0.1, 0.2, 1, 0.1);
   width: 27vw;
 }
 box1 h4 {
@@ -283,6 +284,7 @@ h2 {
 h4 {
   text-align: center;
 }
+
 h3,
 h5 {
   text-align: center;
@@ -497,12 +499,25 @@ h7 {
     height: 48%;
     margin-top: 1%;
   }
+  /* h4 {
+    text-align: center;
+  } */
+  box1,
+  box2,
+  box3,
+  box4,
+  box5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 8vh;
+  }
   box1:hover {
     transition: 2s;
     transition-timing-function: cubic-bezier(0.1, 0.5, 1, 0.1);
     width: 85vw;
   }
-
   box2:hover {
     transition: 3s;
     transition-timing-function: cubic-bezier(0.1, 0.4, 1, 0.1);
@@ -886,4 +901,20 @@ h7 {
 }
 #logo:checked + .slidepage {
   left: 0;
+}
+
+h7 {
+  background: rgba(223, 24, 23, 0.5);
+  padding: 4px 4px;
+  color: black;
+  border-bottom: 3px solid white;
+}
+.li {
+  color: black;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+.li > a {
+  color: black;
+  font-size: 16px;
 }
