@@ -1,211 +1,259 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: rgba(149,164,158,.4);
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(149, 164, 158, 0.4);
 }
-.container{
-    min-height: 600px;
-    width: 90%;
-    margin-left: 5%;
-    /* border: 1px solid blue; */
+.container {
+  min-height: 600px;
+  width: 90%;
+  margin-left: 5%;
+  /* border: 1px solid blue; */
 }
-.heading{
-    height: 120px;
-    width: 950px;
-    border-radius: 0px 50px 50px 0px;
-    margin-left: 100px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    background-image: url(spiderweb.jpg);
-    background-position: center;
-    background-size: cover;
-    color: orange;
-    font-weight: bold;
-    opacity: .5;
+.heading {
+  height: 120px;
+  width: 950px;
+  border-radius: 0px 50px 50px 0px;
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-image: url(spiderweb.jpg);
+  background-position: center;
+  background-size: cover;
+  color: orange;
+  font-weight: bold;
+  opacity: 0.5;
 }
 /* about me box */
-.aboutmebox{
-    width: 1000px;
-    height: 290px;
+.aboutmebox {
+  width: 1000px;
+  height: 290px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 74px;
+}
+.aboutme {
+  width: 460px;
+  height: 230px;
+  background: rgba(149, 164, 158, 0.6);
+  box-shadow: 4px 5px 6px black;
+}
+.technologies {
+  width: 460px;
+  height: 230px;
+  background: rgba(149, 164, 158, 0.6);
+  box-shadow: 4px 5px 6px black;
+}
+.h2 {
+  text-align: center;
+}
+.p {
+  text-align: justify;
+  font-size: 17px;
+  margin-top: -10px;
+  padding: 0px 10px;
+}
+.p-li {
+  margin-left: 30px;
+}
+/* icons styling */
+.contact-info {
+  font-size: 25px;
+  text-align: center;
+}
+.phone {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.tele-number {
+  margin-top: -20px;
+  text-align: center;
+}
+.globe {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.address {
+  margin-top: -20px;
+  text-align: center;
+}
+.envelop {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.email {
+  margin-top: -20px;
+  text-align: center;
+}
+.github {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.github-link {
+  margin-top: -20px;
+  text-align: center;
+}
+.linked {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.linked-address {
+  margin-top: -20px;
+  text-align: center;
+}
+/* the main part with two big boxes */
+.twobigboxes {
+  width: 100%;
+  height: 100%;
+  /*  border: 1px solid blue; */
+  display: flex;
+}
+.reachme {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgba(149, 164, 158, 0.7);
+  padding-top: 10px;
+  margin-top: 70px;
+  margin-left: 100px;
+  box-shadow: 4px 5px 6px black;
+}
+.professional {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.professional-experience {
+  width: 88%;
+  min-height: 150px;
+  /* border: 1px solid black; */
+  margin-left: 10%;
+}
+.education {
+  width: 88%;
+  min-height: 150px;
+  /* border: 1px solid black;  */
+  margin-left: 10%;
+}
+.further-trainings {
+  width: 88%;
+  min-height: 150px;
+  /* border: 1px solid black; */
+  margin-left: 10%;
+}
+.further-qualifications {
+  width: 88%;
+  min-height: 150px;
+  /* border: 1px solid black;  */
+  margin-left: 10%;
+}
+h2 {
+  text-align: left;
+  border-bottom: 2px solid black;
+  padding-left: 25px;
+}
+.h5 {
+  font-size: 17px;
+  margin-top: -10px;
+  margin-left: -50px;
+}
+h5 {
+  font-size: 17px;
+  margin-top: -10px;
+  margin-left: -50px;
+}
+.teaching-list,
+.teaching-list1,
+.teaching-list2 {
+  margin-top: -20px;
+  margin-left: 150px;
+}
+
+.education-list,
+.education-list1,
+.education-list2,
+.education-list3,
+.education-list4 {
+  margin-top: -20px;
+  margin-left: 150px;
+}
+.further-trainings-list,
+.further-trainings-list1,
+.further-trainings-list2,
+.further-trainings-list3 {
+  margin-top: -20px;
+  margin-left: 150px;
+}
+.further-qualification,
+.further-qualification1 {
+  margin-top: -20px;
+}
+
+h2::first-letter {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h1,
+h3 {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+strong {
+  margin-right: 30px;
+  font-size: 20px;
+}
+strong1 {
+  margin-right: 58px;
+  font-size: 20px;
+}
+@media (min-width: 450px) and (max-width: 1100px) {
+  .heading {
+    text-align: center;
+    width: 100%;
+    margin-left: 13%;
+    margin-bottom: 3%;
+  }
+  .aboutmebox {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 74px;
-}
-.aboutme{
-    width: 460px;
-    height: 230px;
-    background:  rgba(149,164,158,.6);
-    box-shadow: 4px 5px 6px black;
-}
-.technologies{
-    width: 460px;
-    height: 230px;
-    background:  rgba(149,164,158,.6);
-    box-shadow: 4px 5px 6px black;
-}
-.h2{
-    text-align: center;
-}
-.p{
-    text-align: justify;
-    font-size: 17px;
-    margin-top: -10px;
-    padding: 0px 10px;
-}
-.p-li{
-    margin-left: 30px;
-}
-/* icons styling */
-.contact-info{
-    font-size: 25px;
-    text-align: center;
-}
-.phone{
-    text-align: center;
-    font-size: 35px;
-    color: white;
-}
-.tele-number{
-    margin-top: -20px;
-    text-align: center;
-}
-.globe{
-    text-align: center;
-    font-size: 35px;
-    color: white;
-}
-.address{
-    margin-top: -20px;
-    text-align: center;
-}
-.envelop{
-    text-align: center;
-    font-size: 35px;
-    color: white;
-}
-.email{
-    margin-top: -20px;
-    text-align: center;
-}
-.github{
-    text-align: center;
-    font-size: 35px;
-    color: white;
-}
-.github-link{
-    margin-top: -20px;
-    text-align: center;
-}
-.linked{
-    text-align: center;
-    font-size: 35px;
-    color: white; 
-}
-.linked-address{
-    margin-top: -20px;
-    text-align: center; 
-}
-/* the main part with two big boxes */
-.twobigboxes{
+  }
+  .aboutme {
+    min-width: 20%;
+    min-height: 310px;
+  }
+  .technologies {
+    min-width: 20%;
+    min-height: 310px;
+    margin-left: 1%;
+  }
+  .twobigboxes {
     width: 100%;
-    height: 100%;
-   /*  border: 1px solid blue; */
     display: flex;
-}
-.reachme{
-    width: 300px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background:  rgba(149,164,158,.7);
-    padding-top: 10px;
-    margin-top: 70px;
-    margin-left: 100px;
-    box-shadow: 4px 5px 6px black;
-}
-.professional{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.professional-experience{
-    width: 88%;
-    min-height: 150px;
-    /* border: 1px solid black; */ 
-    margin-left: 10%;
-}
-.education{
-    width: 88%;
-    min-height: 150px;
-    /* border: 1px solid black;  */
-    margin-left: 10%;
-}
-.further-trainings{
-    width: 88%;
-    min-height: 150px;
-    /* border: 1px solid black; */ 
-    margin-left: 10%;
-}
-.further-qualifications {
-width: 88%;
-min-height: 150px;
-/* border: 1px solid black;  */
-margin-left: 10%;
-}
-h2{
-    text-align: left;
-    border-bottom: 2px solid black;
-    padding-left: 25px;
-}
-.h5{
-    font-size: 17px;
-    margin-top: -10px;
-    margin-left: -50px;
-}
-h5{
-    font-size: 17px;
-    margin-top: -10px;
-    margin-left: -50px;
-}
-.teaching-list, .teaching-list1, .teaching-list2{
-    margin-top: -20px;
-    margin-left: 150px;
-}
-
-.education-list, .education-list1, .education-list2, .education-list3, .education-list4{
-    margin-top: -20px;
-    margin-left: 150px;
-}
-.further-trainings-list, .further-trainings-list1, .further-trainings-list2,
-.further-trainings-list3{
-    margin-top: -20px;
-    margin-left: 150px;
-}
-.further-qualification, .further-qualification1{
-    margin-top: -20px;
-}
-
-h2::first-letter{
-    color: red;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-h1, h3{
-    text-align: left;
-    padding-left: 20px;
-    margin-bottom: 10px;
-}
-
-strong{
-    margin-right: 30px;
-    font-size: 20px;
-}
-strong1{
-    margin-right: 58px;
-    font-size: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .reachme {
+    width: 200px;
+    margin-top: -105%;
+  }
+  .professional {
+    width: 50%;
+    margin-left: 4%;
+    margin-left: 7%;
+  }
 }
