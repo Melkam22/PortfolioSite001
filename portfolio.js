@@ -144,10 +144,10 @@ myIconButton.addEventListener("click", function() {
     myDigitalCv.style.display = "block";
     myDigitalCv.style.zIndex = "200";
     myDigitalCv.style.width = "98vw";
-    myDigitalCv.style.height = "80vh";
+    myDigitalCv.style.height = "40vh";
     myDigitalCv.style.padding = "1% 3%";
     myDigitalCv.style.position = "absolute";
-    myDigitalCv.style.background = "rgba(23,53,63,.9)";
+    myDigitalCv.style.background = "rgba(123,153,63,.9)";
     myDigitalCv.style.color = "white";
   } else if (btn) {
     document.location.reload();
