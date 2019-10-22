@@ -77,6 +77,9 @@ label:hover {
   width: 100%;
   width: 60ch;
   color: rgba(23, 53, 163, 1);
+  -webkit-text-stroke-color: orchid;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 3px 5px 6px white;
 }
 .main-title > h1 {
   overflow: hidden;
