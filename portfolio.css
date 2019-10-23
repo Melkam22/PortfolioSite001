@@ -966,4 +966,5 @@ h7 {
   height: 50px;
   border-radius: 15%;
   border: none;
+  z-index: 200;
 }
