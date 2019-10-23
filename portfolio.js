@@ -120,17 +120,21 @@ myMssgClick.addEventListener("click", function() {
   if (!mssg) {
     myCv.style.display = "block";
     myCv.style.zIndex = "200";
+    myCv.style.height = "40vh";
+    myCv.style.padding = "1% 3%";
+    myCv.style.position = "absolute";
+    myCv.style.background = "rgba(123,153,63,.9)";
+    myCv.style.color = "white";
   } else if (mssg) {
-    document.location.reload();
+    myCv.style.display = "none";
     //window.location.reload()";
   }
 });
 
 /* close box */
 let close_box = document.querySelector(".close-box");
-
 close_box.addEventListener("click", function() {
-  document.location.reload();
+  myCv.style.display = "none";
 });
 
 /* digital-cv unavailable */
@@ -150,11 +154,11 @@ myIconButton.addEventListener("click", function() {
     myDigitalCv.style.background = "rgba(123,153,63,.9)";
     myDigitalCv.style.color = "white";
   } else if (btn) {
-    document.location.reload();
+    myDigitalCv.style.display = "none";
   }
 });
 /* close the box */
 let closeMyBox = document.querySelector(".close-myBox");
 closeMyBox.addEventListener("click", function() {
-  document.location.reload();
+  myDigitalCv.style.display = "none";
 });
