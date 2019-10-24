@@ -449,7 +449,7 @@ h7 {
 @media only screen and (max-width: 550px) {
   .first {
     width: 100%;
-    min-height: 80%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -487,7 +487,7 @@ h7 {
   }
   .aboutme {
     width: 96%;
-    min-height: 90%;
+    height: 90%;
     margin-left: 2%;
     display: flex;
     flex-direction: column;
@@ -605,7 +605,7 @@ h7 {
   }
   .education {
     width: 96%;
-    min-height: 90%;
+    height: 90%;
     margin-left: 2%;
     display: flex;
     flex-direction: column;
@@ -624,7 +624,7 @@ h7 {
 
   .work {
     width: 96%;
-    min-height: 90%;
+    height: 90%;
     margin-left: 2%;
     display: flex;
     flex-direction: column;
