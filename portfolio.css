@@ -362,6 +362,7 @@ h7 {
   border: none;
   background: rgba(35, 124, 23, 0.7);
   padding: 4px 4px;
+  margin-top: -5%;
 }
 .work-experience {
   width: 50%;
@@ -373,7 +374,7 @@ h7 {
 }
 .web-experience {
   width: 49%;
-  height: 95%;
+  height: 96%;
   background: rgba(23, 53, 63, 0.4);
   padding: 10px 10px;
   text-align: justify;
@@ -485,7 +486,7 @@ h7 {
   }
   .aboutme {
     width: 96%;
-    height: 90%;
+    min-height: 90%;
     margin-left: 2%;
     display: flex;
     flex-direction: column;
@@ -603,7 +604,7 @@ h7 {
   }
   .education {
     width: 96%;
-    height: 90%;
+    min-height: 90%;
     margin-left: 2%;
     display: flex;
     flex-direction: column;
@@ -622,7 +623,7 @@ h7 {
 
   .work {
     width: 96%;
-    height: 90%;
+    min-height: 90%;
     margin-left: 2%;
     display: flex;
     flex-direction: column;
@@ -927,7 +928,7 @@ h7 {
   height: 30px;
 }
 .cv-absent {
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -945,7 +946,7 @@ h7 {
   margin-left: 90%;
 }
 .digitalCv-absent {
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
