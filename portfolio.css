@@ -361,7 +361,8 @@ h7 {
 #workbtn1 {
   border: none;
   background: rgba(35, 124, 23, 0.7);
-  padding: 2px 2px;
+  padding: 4px 4px;
+  position: absolute;
   margin-top: -5%;
 }
 .work-experience {
@@ -374,7 +375,7 @@ h7 {
 }
 .web-experience {
   width: 49%;
-  height: 96%;
+  height: 95%;
   background: rgba(23, 53, 63, 0.4);
   padding: 10px 10px;
   text-align: justify;
@@ -914,7 +915,7 @@ h7 {
 }
 .li {
   color: black;
-  margin-left: 10%;
+  margin-left: 20%;
   margin-top: 1%;
 }
 .li > a {
